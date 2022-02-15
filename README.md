@@ -5,7 +5,7 @@
 - [Install Python 3.10](https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system/)
 - [Install Poetry](https://python-poetry.org/docs/master/#installation)
 
-### Config Poetry
+### Setting Poetry
 
 Enabling configuration that allows using .venv
 
