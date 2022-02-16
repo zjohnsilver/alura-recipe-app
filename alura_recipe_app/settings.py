@@ -24,8 +24,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = settings.get("SECRET_KEY")
 
-print(SECRET_KEY)
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
