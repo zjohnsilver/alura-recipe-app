@@ -1,3 +1,11 @@
 from django.db import models
+from alura_recipe.helpers.models import TimeStampMixin
 
-# Create your models here.
+
+class Recipe(TimeStampMixin):
+    name = models.CharField(max_length=100)
+    ingredients = models.TextField()
+    preparation_mode = models.TextField()
+    preparation_time = models.IntegerField()
+    income = models.CharField(max_length=50)
+    category = models.CharField(max_length=50)

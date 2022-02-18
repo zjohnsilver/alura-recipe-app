@@ -78,8 +78,12 @@ WSGI_APPLICATION = "alura_recipe.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": settings.get("DB_NAME"),
+        "USER": settings.get("DB_USER"),
+        "PASSWORD": settings.get("DB_PASSWORD"),
+        "HOST": settings.get("DB_HOST"),
+        "PORT": settings.get("DB_PORT"),
     }
 }
 
