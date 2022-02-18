@@ -1,5 +1,5 @@
 from django.db import models
-from alura_recipe.helpers.models import TimeStampMixin
+from commons.models import TimeStampMixin
 
 
 class Recipe(TimeStampMixin):
