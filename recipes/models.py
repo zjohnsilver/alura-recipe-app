@@ -1,5 +1,5 @@
 from django.db import models
-from commons.models import TimeStampMixin
+from common.models import TimeStampMixin
 
 
 class Recipe(TimeStampMixin):
